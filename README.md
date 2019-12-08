@@ -2,11 +2,19 @@ DICOM PACS Client
 =========
 # About
 Project on the subject of _Medical Information Systems_. 
- 
-###### Todo
-- saving the sound emission time in the file name of the recording
-- improving the look of GUI
-- ....
+
+
+The application is used to manage medical images in the PACS server service.
+ It allows you to connect to the server using any user parameters and archive. 
+Changing the user and the archive is done through the window called from the menu bar.
+
+Tested: 
+
++PACS server - dcmqrscp 
+
++Operating system - Win10
+
++Python version: 3.7 (don't try on Python 2.x)
 
 #### Author 
 Kamil Kozieł
