@@ -34,11 +34,14 @@ Next you have to active your environment
 ``` 
 ## Install requirements packages
 ``` bash
-(venv) (...)> pip install (pathTo_StepToBum)\requirements.txt
+(venv) (...)> pip install (path_to_PACSClient)\requirements.txt
 ```
+## Add gdcm dll to you Python directory
+
+Copy files from res\dlls to C:\Users\(username)\AppData\Local\Programs\Python\Python37\DLLs
 
 ## Running app
 To run app you should run you command prompt from StepToBum directory and then type:
 ``` bash
-(venv) (...)> python PACSClient.py
+(venv) (path_to_PACSClient) > python PACSClient.py
 ```
