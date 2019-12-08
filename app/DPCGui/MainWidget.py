@@ -69,10 +69,10 @@ class MainWidget(QWidget):
     def updateConnectCtrl(self):
         isConnect = PACS_Action.isConnect()
         if isConnect:
-            self.connect_icon = QPixmap('img/icons/isConnect_64.png')
+            self.connect_icon = QPixmap('res/img/icons/isConnect_64.png')
             self.connect_ctrl.setPixmap(self.connect_icon)
         else:
-            self.connect_icon = QPixmap('img/icons/noConnect_64.png')
+            self.connect_icon = QPixmap('res/img/icons/noConnect_64.png')
             self.connect_ctrl.setPixmap(self.connect_icon)
 
     def __initArchiveLabel(self):
